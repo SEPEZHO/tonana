@@ -42,7 +42,7 @@ interface PhantomProvider {
 function App() {
 	const [tu, stu] = useState(0);
 	const [su, ssu] = useState(0);
-	const [ex, sex] = useState(false);
+	const [ex, sex] = useState(true);
 	const [isload, sisload] = useState(false);
 
 	const [walletKey, setWalletKey] = useState<PhantomProvider | undefined>(
